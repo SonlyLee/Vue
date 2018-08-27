@@ -1,0 +1,11 @@
+# gitlab for company
+Host git.n.xiaomi.com
+  Hostname git.n.xiaomi.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa
+
+# github for personal
+Host github.com
+  Hostname github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/github
